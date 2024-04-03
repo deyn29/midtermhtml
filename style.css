@@ -1,0 +1,231 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+  }
+  
+  header  {
+    background-color: #333;
+    color: red;
+    padding: 3px;
+    padding-bottom: 1vh;
+    text-align: center; 
+    position: relative;
+    z-index: 999;
+    font-family: "Permanent Marker", cursive;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    
+  }
+
+  .logo img {
+    width: 70px;
+    height: 90px;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-right: 20px; 
+}
+
+.header-div {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.home-button {
+    color: white; 
+    padding: 10px 20px;
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 999;
+    padding: 15px 30px;
+    margin-right: 20px;
+    padding-left: 20px;
+    
+}
+#home{
+  padding: 15px 30px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+
+.home-button:hover {
+    background-color: #555;
+}
+
+  
+
+  .logo {
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+
+  #reviews{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+  }
+  
+  .content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.8; 
+    background-color: rgba(97, 94, 94, 0.8); 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .description-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .offerings {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .unli {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+  }
+  
+  .unli-pork {
+    background-color: #1ff631f8;
+    border: 1px solid #010400d0;
+
+}
+  .offerings :hover{
+    transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+
+  
+
+.unli-beef {
+background-color: #e4e433;
+border: 1px solid #000000e2;
+}
+
+  
+.faqs-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.faqs-container:hover{
+  transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.faqs-container h2{
+    
+    font-family: 'Bebas Neue', sans-serif; 
+    
+}
+
+.faq {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.faq:last-child {
+  border-bottom: none;
+}
+
+.faq summary {
+  font-weight: bold;
+  margin: -1px;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.faq summary:hover {
+  background-color: #0056b3;
+}
+
+.faq-answer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-style: italic;
+}
+
+.faq-answer p {
+  margin: 0;
+}
+
+  
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer-establish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif
+}
+
+.footer-establish p, .footer-establish a {
+    margin: 5px 0;
+}
+
